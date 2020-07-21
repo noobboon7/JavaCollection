@@ -16,9 +16,9 @@ public class GreatCircle {
   // apply formulae
   double comp = Math.pow(Math.sin(dLat / 2), 2) + Math.pow(Math.sin(dLon / 2), 2) * Math.cos(a) * Math.cos(c);
   double rad = 6371.0;
-  double ci = 2 * Math.asin(Math.sqrt());
+  double ci = 2 * Math.asin(Math.sqrt(comp));
   double path = rad * ci;
   
   System.out.println(path + " kilometers");
- } 
+ }
 }
