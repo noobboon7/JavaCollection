@@ -1,6 +1,6 @@
 public class CMYKtoRGB {
   public static void main(String[] args) {
-    double c,m,y,k;
+    double c, m, y, k;
     c = Double.parseDouble(args[0]);
     m = Double.parseDouble(args[1]);
     y = Double.parseDouble(args[2]);

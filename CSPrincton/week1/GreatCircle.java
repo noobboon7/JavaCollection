@@ -1,5 +1,3 @@
-import javax.crypto.CipherInputStream;
-
 public class GreatCircle {
  public static void main(String[] args) {
   double a,b,c,d;
@@ -18,7 +16,7 @@ public class GreatCircle {
   // apply formulae
   double comp = Math.pow(Math.sin(dLat / 2), 2) + Math.pow(Math.sin(dLon / 2), 2) * Math.cos(a) * Math.cos(c);
   double rad = 6371.0;
-  double ci = 2 * Math.asin(Math.sqrt(comp));
+  double ci = 2 * Math.asin(Math.sqrt());
   double path = rad * ci;
   
   System.out.println(path + " kilometers");
